@@ -1,3 +1,22 @@
+# Operating system and editor files
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Project-local design tooling
 .agents/
 skills-lock.json
+
+# Local dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
